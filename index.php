@@ -1,31 +1,7 @@
-<!DOCTYPE html>
-<html lang="en" class="no-js">
-
-<!-- Mirrored from lmpixels.com/demo/breezycv/dark/1/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 06 Aug 2022 18:14:46 GMT -->
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Matthew John Alex</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-  <link rel="shortcut icon" href="fav.png">
-  <link rel="stylesheet" href="css/reset.css" type="text/css">
-  <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
-  <link rel="stylesheet" href="css/animations.css" type="text/css">
-  <link rel="stylesheet" href="css/perfect-scrollbar.css" type="text/css">
-  <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
-  <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-  <link rel="stylesheet" href="css/main.css" type="text/css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Mingzat&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
-  <script src="js/modernizr.custom.js"></script>
-</head>
-
+<?php include ('header.php')?>
 <body>
   <!-- Animated Background -->
-  <div class="lm-animated-bg" style="background-image: url(img/main_bg.png);"></div>
+  <div class="lm-animated-bg" style="background-image: url(Assets/img/main_bg.png);"></div>
   <!-- /Animated Background -->
 
   <!-- Loading animation -->
@@ -43,7 +19,7 @@
       <header id="site_header" class="header mobile-menu-hide">
         <div class="header-content">
           <div class="header-photo">
-            <img src="img/mja.jpg" alt="Matthew John Alex">
+            <img src="Assets/img/mja.jpg" alt="Matthew John Alex">
           </div>
           <div class="header-titles">
             <h4>Matthew John Alex</h4>
@@ -76,12 +52,6 @@
               <span class="link-text">Portfolio</span>
             </a>
           </li>
-          <!-- <li>
-            <a href="#blog" class="nav-anim">
-              <span class="menu-icon lnr lnr-book"></span>
-              <span class="link-text">Blog</span>
-            </a>
-          </li> -->
           <li>
             <a href="#contact" class="nav-anim">
               <span class="menu-icon lnr lnr-envelope"></span>
@@ -103,7 +73,7 @@
         </div>
 
         <div class="header-buttons">
-          <a href="#" target="_blank" class="btn btn-primary">Download CV</a>
+          <a href="https://drive.google.com/file/d/13YXQ1rY2OxTAK67CHkI5hCcRWJssdGAa/view?usp=sharing" target="_blank" class="btn btn-primary">Resume</a>
         </div>
 
         <div class="copyrights">© 2022 All rights reserved.</div>
@@ -396,7 +366,7 @@
                     <div class="timeline-item clearfix">
                       <div class="left-part">
                         <h5 class="item-period">2019 - current</h5>
-                        <span class="item-company">Yep Tech</span>
+                        <span class="item-company">String Hub</span>
                       </div>
                       <div class="divider"></div>
                       <div class="right-part">
@@ -431,19 +401,6 @@
                           felis id, congue libero. Nam volutpat euismod quam.</p> -->
                       </div>
                     </div>
-
-                    <!-- <div class="timeline-item clearfix">
-                      <div class="left-part">
-                        <h5 class="item-period">2011 - 2013</h5>
-                        <span class="item-company">Google</span>
-                      </div>
-                      <div class="divider"></div>
-                      <div class="right-part">
-                        <h4 class="item-title">Junior Ui/Ux Designer</h4>
-                        <p>Duis mollis nunc quis quam viverra venenatis. Nulla nulla arcu, congue vitae nunc ac, sodales
-                          ultricies diam. Nullam justo leo, tincidunt sit amet.</p>
-                      </div>
-                    </div> -->
                   </div>
                 </div>
 
@@ -485,16 +442,6 @@
                     </div>
                     <!-- End of Skill 3 -->
 
-                    <!-- Skill 4 -->
-                    <!-- <div class="skill clearfix">
-                      <h4>Graphic Design</h4>
-                      <div class="skill-value">90%</div>
-                    </div>
-                    <div class="skill-container skill-4">
-                      <div class="skill-percentage"></div>
-                    </div> -->
-                    <!-- End of Skill 4 -->
-
                   </div>
                   <!-- End of Design Skills -->
 
@@ -534,27 +481,6 @@
                     <div class="skill-container skill-9">
                       <div class="skill-percentage"></div>
                     </div>
-                    <!-- End of Skill 7 -->
-
-                    <!-- Skill 8 -->
-                    <!-- <div class="skill clearfix">
-                      <h4>Smarty/Twig</h4>
-                      <div class="skill-value">75%</div>
-                    </div>
-                    <div class="skill-container skill-8">
-                      <div class="skill-percentage"></div>
-                    </div> -->
-                    <!-- End of Skill 8 -->
-
-                    <!-- Skill 9 -->
-                    <!-- <div class="skill clearfix">
-                      <h4>Perl</h4>
-                      <div class="skill-value">90%</div>
-                    </div>
-                    <div class="skill-container skill-9">
-                      <div class="skill-percentage"></div>
-                    </div> -->
-                    <!-- End of Skill 9 -->
                   </div>
                   <!-- End of Coding Skills -->
 
@@ -597,7 +523,7 @@
                 <div class="col-xs-12 col-sm-6">
                   <div class="certificate-item clearfix">
                     <div class="certi-logo">
-                      <img src="img/polyibd.png" alt="logo">
+                      <img src="Assets/img/polyibd.png" alt="logo">
                     </div>
 
                     <div class="certi-content">
@@ -622,7 +548,7 @@
                 <div class="col-xs-12 col-sm-6">
                   <div class="certificate-item clearfix">
                     <div class="certi-logo">
-                      <img src="img/Udemy-Logo.png" alt="logo">
+                      <img src="Assets/img/Udemy-Logo.png" alt="logo">
                     </div>
 
                     <div class="certi-content">
@@ -672,7 +598,7 @@
                 <div class="col-xs-12 col-sm-6">
                   <div class="certificate-item clearfix">
                     <div class="certi-logo">
-                      <img src="img/aptLearn-logo.png" alt="logo">
+                      <img src="Assets/img/aptLearn-logo.png" alt="logo">
                     </div>
 
                     <div class="certi-content">
@@ -716,7 +642,7 @@
                       <li class="active">
                         <a class="filter btn btn-sm btn-link" data-group="category_all">All</a>
                       </li>
-                      <li>
+                      <!-- <li>
                         <a class="filter btn btn-sm btn-link" data-group="category_personal">Personal</a>
                       </li>
                       <li>
@@ -724,16 +650,16 @@
                       </li>
                       <li>
                         <a class="filter btn btn-sm btn-link" data-group="category_blogs">Blogs</a>
-                      </li>
+                      </li> -->
                     </ul>
 
                     <!-- Portfolio Grid -->
                     <div class="portfolio-grid three-columns">
                       <!-- Portfolio Grid 1 -->
 
-                      <figure class="item lbaudio" data-groups='["category_all", "category_blogs"]'>
+                      <figure class="item lbaudio" data-groups='["category_all"]'>
                         <div class="portfolio-item-img">
-                          <img src="img/portfolio/naijanewssnapshot.png" alt="Naijanews360" title="" />
+                          <img src="Assets/img/portfolio/naijanewssnapshot.png" alt="Naijanews360" title="" />
                           <a href="https://www.naijanews360.com.ng" class="lightbox mfp-iframe"
                             title="Naijanews360"></a>
                         </div>
@@ -744,9 +670,9 @@
                       </figure>
                       <!-- Portfolio Grid 2 -->
 
-                      <figure class="item standard" data-groups='["category_all", "category_blogs"]'>
+                      <figure class="item standard" data-groups='["category_all"]'>
                         <div class="portfolio-item-img">
-                          <img src="img/portfolio/naijatech360.png" alt="Naijatech360" title="naijatech360" />
+                          <img src="Assets/img/portfolio/naijatech360.png" alt="Naijatech360" title="naijatech360" />
                           <a href="https://www.naijatech360.com.ng" class="lightbox mfp-iframe"
                             title="Naijatech360"></a>
                         </div>
@@ -792,7 +718,7 @@
                   <div class="lm-info-block gray-default">
                     <i class="lnr lnr-envelope"></i>
                     <h4><a href="mailto:realfinebobo@gmail.com" class="__cf_email__"
-                        data-cfemail="caaba6afb28aafb2aba7baa6afe4a9a5a7">Yep Tech</a></h4>
+                        data-cfemail="caaba6afb28aafb2aba7baa6afe4a9a5a7">Stringhub</a></h4>
                     <span class="lm-info-block-value"></span>
                     <span class="lm-info-block-text"></span>
                   </div>
@@ -810,14 +736,6 @@
 
                 <!-- Contact Form -->
                 <div class="col-xs-12 col-sm-8">
-                  <div id="map" class="map">
-                    <div class="lmpixels-map">
-                      <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15825.86345582784!2d3.855256916205145!3d7.413580092846808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10398cd6230d6c9d%3A0x43a721a52865462c!2sEleyele%2C%20Ibadan!5e0!3m2!1sen!2sng!4v1660012243513!5m2!1sen!2sng"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                  </div>
                   <div class="block-title">
                     <h3>How Can I <span>Be Of Help?</span></h3>
                   </div>
@@ -912,6 +830,5 @@
     integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw=="
     data-cf-beacon='{"rayId":"7369c1036bee744f","version":"2022.6.0","r":1,"token":"94b99c0576dc45bf9d669fb5e9256829","si":100}'
     crossorigin="anonymous"></script>
-</body>
 
-</html>
+    <?php include ('footer.php')?>

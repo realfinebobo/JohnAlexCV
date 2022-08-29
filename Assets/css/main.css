@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;700&display=swap');
 @import 'fonts/linear-icons-font/style.css';
 @import 'fonts/fontawesome-free-5.12.1-web/css/all.min.css';
 
@@ -9,19 +10,19 @@ html {
     overflow: hidden;
 }
 
-* {
-    font-family: 'Handlee', cursive;
-    font-family: 'Patrick Hand SC', cursive;
+*{
+    box-sizing: border-box;
 }
 
 body {
-    background-color: #04b4e0;
+    /* background-color: #04b4e0; */
+    font-family: 'Handlee', cursive;
     margin: 0;
     width: 100%;
     height: 100%;
     min-height: 100%;
     font-size: 15px;
-    font-family: poppins, Helvetica, sans-serif;
+    font-family: Helvetica;
     line-height: 1.65em;
     overflow: hidden;
     color: #d5d5d5;
@@ -29,6 +30,16 @@ body {
     background-position: center;
     background-position: 50% 50%;
     background-size: cover;
+}
+
+.copyright-name {
+    color: #09c;
+    font-family: 'Handlee', cursive;
+
+}
+
+.copyright-name a:hover{
+    color: white;
 }
 
 h1,
@@ -39,7 +50,6 @@ h5,
 h6 {
     color: #eee;
     font-family: 'Handlee', cursive;
-    font-family: 'Patrick Hand SC', cursive;
     font-weight: 600
 }
 
@@ -657,7 +667,7 @@ input[type=text] {
 
 textarea.form-control,
 textarea.form-control:focus {
-    height: auto
+    height: 25.3vh;
 }
 
 .form-control~.form-control-border {
@@ -691,7 +701,7 @@ textarea.form-control:focus {
 }
 
 .has-error .form-control~.form-control-border {
-    border-color: #ff4c4c
+    border-color: #ff4c4c;
 }
 
 .form-control::-moz-placeholder {
@@ -1393,7 +1403,7 @@ input[type=text],
 
 .right-column textarea {
     border: solid rgb(39, 96, 218) 1px;
-    height: 37vh;
+    height: 25.3vh;
 }
 .controls.two-columns .right-column {
     width: 50%;
